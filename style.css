@@ -3,39 +3,90 @@ body {
   padding: 0;
   background-color: rgb(249, 250, 215);
 }
+.nav-bar{
 
-.container {
-  list-style: none;
   display: flex;
-  background-color: lightgreen;
+  justify-content: space-between;
+  background-color: yellowgreen;
+}
+.left-side button{
+
+  width: 90px;
+  border-radius: 4px;
+  
+}
+.wraper button:hover{
+
+  width: 90px;
+  border-radius: 4px;
+  color: aqua;
 }
 
-.image-section {
-  height: 175px;
+
+.right-side .left-side{
+
+  list-style-type: none;
+  
 }
-.fa-apple {
-  font-size: 70px;
+.right-side li, .left-side li{
+
+  display: inline-block;
+}
+.right-side li a, .left-side li a{
+
+
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  color: #333;
+  padding: 2px 16px;
+}
+.right-side li a{
+font-weight: bold;
+font-style: italic;
+font-size: 2em;
+color: red;
+}
+.left-side li a:hover{
+  color: aqua;
+
+}
+.left-side button:hover{
+  color: aqua;
 }
 
-.fa-opera {
-  font-size: 70px;
+.right img{
+
+  width: 600px;
+  height: 400px;
+  float: right;
+  margin: 15px 20px;
 }
-.fa-windows {
-  font-size: 70px;
+.wraper{
+
+  background-color: aliceblue;
+  height: 600px;
+}
+.info h1{
+
+  text-align: left;
+}
+.left{
+
+padding-top: 210px;
+padding-left: 50px;
+padding-right: 80px;
+  
 }
 
-.fa-twitter {
-  font-size: 25px;
-}
-.fa-square-instagram {
-  font-size: 25px;
-}
-.fa-facebook {
-  font-size: 25px;
-}
-
-h2 i {
-  float: left;
+.grid-container {
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .cards .img-muzan {
@@ -54,6 +105,40 @@ h2 i {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.sect-container{
+
+  background-color:antiquewhite;
+  height: 750px;
+}
+
+
+.grid-cards {
+  width: 60%;
+  margin: 20px auto;
+  display: grid;
+  
+  grid-gap: 30px;
+  
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card button{
+
+  display: inline-block;
+  margin-top: auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+      
+}
+
+.card{
+
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: normal;
 }
 
 .card .img-inosuke {
@@ -82,27 +167,9 @@ h2 i {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100px;
-  display: flex;
-  padding: 4px;
+  
 }
 
-.grid-cards {
-  width: 60%;
-  margin: 20px auto;
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.grid-container {
-  width: 60%;
-  margin: 20px auto;
-  text-align: center;
-  display: grid;
-  grid-gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
-}
 .content {
   padding: 20px 10px;
   text-align: center;
@@ -135,22 +202,7 @@ body section {
   text-align: center;
 }
 
-.wraper img {
-  width: 600px;
-  height: 400px;
-  display: flex;
-}
-.wraper h1 {
-  color: crimson;
-}
 
-.wraper {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: goldenrod;
-  justify-content: space-between;
-}
 .official-site {
   text-align: center;
   justify-content: left;
@@ -188,27 +240,6 @@ ul img {
   justify-content: center;
 }
 
-footer i {
-  float: right;
-  padding-right: 30px;
-}
-footer i:hover {
-  transform: translateY(-10px);
-}
-
-footer {
-  background: #9b9e00;
-  height: auto;
-  width: 100vw;
-  padding-bottom: 40px;
-  color: #fff;
-}
-
-.footer-left {
-  width: 120px;
-  height: 120px;
-  margin-right: auto;
-}
 .official-site {
   margin: 50px;
 }
@@ -217,6 +248,9 @@ footer {
   width: 300px;
   float: right;
   margin: auto;
+  margin: 50px ;
+  margin-right: 200px;
+
 }
 
 .official-site .slayer-pic {
@@ -238,4 +272,50 @@ footer {
 .socials i {
   align-content: left;
   align-items: left;
+}
+.image-section {
+  height: 175px;
+}
+.fa-apple {
+  font-size: 70px;
+}
+
+.fa-opera {
+  font-size: 70px;
+}
+.fa-windows {
+  font-size: 70px;
+}
+
+.fa-twitter {
+  font-size: 25px;
+}
+.fa-square-instagram {
+  font-size: 25px;
+}
+.fa-facebook {
+  font-size: 25px;
+}
+footer{
+
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background: #9b9e00;
+}
+footer .left li{
+
+  display: inline;
+  padding : 15px;
+   
+}
+.ds a{
+  text-decoration-line: none;
+  font-size: 25px;
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+footer i:hover {
+  transform: translateY(-10px);
 }
