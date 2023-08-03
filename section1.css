@@ -1,0 +1,83 @@
+.box{
+
+    background-color:var(--primary-color);
+    height: 750px;
+  }
+
+  .box__section h1{
+
+    padding: 30px;
+  }
+
+  
+   .box__section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .box__section p{
+
+    padding: 30px;
+  }
+  
+  
+  .box__cards-1 {
+    width: 70%;
+    margin: 80px auto;
+    display: grid;
+    grid-gap: 30px;
+    
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  
+
+.card button{
+
+  height: 35px;
+  width: 52%;
+  border-radius: 5px;
+  background-color: var(--color);
+        
+  }
+  
+  .card{
+  
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: normal;
+  }
+  
+  .card .img-inosuke {
+    background-image: url("Assets/inosuke.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .card .img-regoku {
+    background-image: url("Assets/regoku.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .card .img-Tengei {
+    background-image: url("Assets/Tengei.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .card .img-tanjiro {
+    background-image: url("Assets/tanjiro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  .content {
+    padding: 20px 10px;
+    text-align: center;
+  }

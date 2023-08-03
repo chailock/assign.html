@@ -1,0 +1,70 @@
+.about {
+    margin: 50px;
+  }
+
+  .contain h2{
+    text-align:  center;
+    padding: 30px;
+  }
+
+  .about {
+    text-align: center;
+    justify-content: left;
+  }
+
+  .about {
+    text-align: left;
+    padding-right: 200px;
+    
+  }
+
+  .about__site {
+    height: 400px;
+    width: 25%;
+    float: right;
+    margin: 30px ;
+    margin-right: 200px;
+  
+  }
+  
+  .about .about__site{
+    text-align: right;
+    padding-right:  -100px; 
+  }
+  
+  .about {
+    text-align: left;
+    padding-right: 100px;
+  
+  }
+  .about__site img {
+    height: 250px;
+    width: 80%;
+    border-radius: 50%;
+    padding-right:  -200px;
+    
+  }
+  .about__socials-1 i {
+    align-content: left;
+    align-items: left;
+  }
+
+  .fa-twitter {
+    font-size: 25px;
+  }
+  .fa-square-instagram {
+    font-size: 25px;
+  }
+  .fa-facebook {
+    font-size: 25px;
+  }
+
+  ul img {
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+  }
+  
+  .image-section {
+    height: 175px;
+  }

@@ -1,0 +1,49 @@
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+  }
+
+  .icons{
+
+    width: 70%;
+    height: 400px;
+    padding-left: 70px;
+    padding: 30px;
+  }
+  
+  .cards .img-muzan {
+    background-image: url("images/muzan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .card {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cards .img-nezuko {
+    background-image: url("images/nezuko.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .fa-apple {
+    font-size: 70px;
+  }
+  
+  .fa-opera {
+    font-size: 70px;
+  }
+  .fa-windows {
+    font-size: 70px;
+  }
+  
+  

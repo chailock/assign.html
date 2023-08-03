@@ -1,0 +1,35 @@
+.wraper{
+
+  height: 700px;
+  background-color: var(--primary-color);
+}
+.wraper__right img{
+
+    width: 700px;
+    height: 600px;
+    float: right;
+    padding: 80px;
+    padding-right: 40px;
+    
+  }
+
+  .wraper__left-1{
+
+    padding-top: 300px;
+    width: 40%;
+    padding-left: 40px;
+  }
+  .wraper__left-2 h1{
+
+    color: var(--color);
+  }
+
+  .wraper__left-2 button{
+    height: 35px;
+   width: 21%;
+   border-radius: 5px;
+   background-color: var(--primary-color);
+   background-color: var(--color);
+  }
+
+  
